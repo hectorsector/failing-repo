@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "standard"
+    "test": "jest && standard"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/JasonEtco/failing-repo/issues"
   },
-  "homepage": "https://github.com/JasonEtco/failing-repo#readme"
+  "homepage": "https://github.com/JasonEtco/failing-repo#readme",
+  "dependencies": {
+    "jest": "^23.4.1",
+    "standard": "^10.0.3"
+  }
 }
